@@ -9,7 +9,7 @@ import json
 import plotly.graph_objects as go
 
 ps = PorterStemmer()
-
+nltk.download('punkt')
 
 def transform_text(text):
     text = text.lower()
