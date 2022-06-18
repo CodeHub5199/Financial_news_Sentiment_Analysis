@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 
 ps = PorterStemmer()
 nltk.download('punkt')
+nltk.download('stopwords')
 
 def transform_text(text):
     text = text.lower()
