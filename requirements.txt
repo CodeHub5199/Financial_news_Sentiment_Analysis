@@ -1,3 +1,4 @@
 streamlit==1.10.0
 plotly==5.8.2
 nltk==3.7
+sklearn
