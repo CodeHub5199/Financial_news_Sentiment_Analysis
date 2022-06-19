@@ -57,7 +57,7 @@ if select == 'Get Headlines with Sentiment':
             st.write('Predicted Sentiment: Positive')
             positive.append(result)
 
-    sentiment_score = 20-len(positive)
+    sentiment_score = len(positive)
     percentage = (100*sentiment_score)/20
     fig = go.Figure(go.Indicator(
         mode = "gauge+number",
